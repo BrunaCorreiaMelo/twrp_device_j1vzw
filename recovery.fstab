@@ -1,10 +1,10 @@
 # mount point                fstype                device                    device2                     flags
-/efs		ext4	/dev/block/platform/7824900.sdhci/by-name/EFS   	flags=display="EFS";backup=1;
-/boot		emmc	/dev/block/platform/7824900.sdhci/by-name/KERNEL	flags=display="Boot";backup=1
-/recovery	emmc	/dev/block/platform/7824900.sdhci/by-name/RECOVERY    	flags=display="recovery";backup=1
-/cache		ext4	/dev/block/platform/7824900.sdhci/by-name/CACHE		flags=display="Cache";backup=1;wipeingui;wipeduringfactoryreset
-/system		ext4	/dev/block/platform/7824900.sdhci/by-name/SYSTEM	flags=display="System";backup=1;wipeingui
-/data		ext4	/dev/block/platform/7824900.sdhci/by-name/USERDATA  	length=-16384 flags=backup=1;wipeingui
-/external_sd    auto    /dev/block/mmcblk1p1    				flags=display="External-Storage";storage;removable;backup=0
-/modem		emmc	/dev/block/platform/7824900.sdhci/by-name/RADIO    	flags=display="modem";backup=1
+/efs		ext4	/dev/block/mmcblk0p13	  flags=display="EFS";backup=1;
+/boot		emmc	/dev/block/mmcblk0p16	  flags=display="Boot";backup=1
+/recovery	emmc	/dev/block/mmcblk0p17     flags=display="recovery";backup=1
+/cache		ext4	/dev/block/mmcblk0p26     flags=display="Cache";backup=1;wipeingui;wipeduringfactoryreset
+/system		ext4	/dev/block/mmcblk0p25	  flags=display="System";backup=1;wipeingui
+/data		ext4	/dev/block/mmcblk0p27  	  length=-16384 flags=backup=1;wipeingui
+/external_sd    auto    /dev/block/mmcblk1p1      flags=display="External-Storage";storage;removable;backup=0
+/modem		emmc	/dev/block/mmcblk0p2      flags=display="modem";backup=1
 

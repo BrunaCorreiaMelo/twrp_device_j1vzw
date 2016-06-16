@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/samsung/a8eltehz/BoardConfigVendor.mk
+-include vendor/samsung/a8eltezh/BoardConfigVendor.mk
 
 # Platform
 TARGET_ARCH := arm
@@ -13,19 +13,19 @@ TARGET_ARCH_VARIANT := armv7-a-neon
 TARGET_CPU_VARIANT := cortex-a9
 TARGET_CPU_SMP := true
 ARCH_ARM_HAVE_TLS_REGISTER := true
-TARGET_BOOTLOADER_BOARD_NAME := a8eltehz
+TARGET_BOOTLOADER_BOARD_NAME := a8eltezh
 art_dont_bother=true
 # Assert
-TARGET_OTA_ASSERT_DEVICE := a8eltehz,SM-A800,A800,MSM8916
+TARGET_OTA_ASSERT_DEVICE := a8eltezh,SM-A800,A800,MSM8916
 # Kernel
-BOARD_CUSTOM_BOOTIMG_MK      := device/samsung/a8eltehz/mkbootimg.mk
+BOARD_CUSTOM_BOOTIMG_MK      := device/samsung/a8eltezh/mkbootimg.mk
 BOARD_KERNEL_CMDLINE         := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci androidboot.selinux=permissive
 BOARD_KERNEL_BASE            := 0x80000000
 BOARD_RAMDISK_OFFSET         := 0x02000000
 BOARD_KERNEL_TAGS_OFFSET     := 0x01e00000
 BOARD_KERNEL_SEPARATED_DT    := true
 BOARD_KERNEL_PAGESIZE        := 2048
-TARGET_KERNEL_SOURCE         := kernel/samsung/a8eltehz
+TARGET_KERNEL_SOURCE         := kernel/samsung/a8eltezh
 TARGET_KERNEL_CONFIG         := msm8939_sec_defconfig
 TARGET_KERNEL_VARIANT_CONFIG := msm8939_sec_a8_chnopen_defconfig
 TARGET_KERNEL_SELINUX_CONFIG := selinux_defconfig
