@@ -2,12 +2,12 @@
 PRODUCT_RELEASE_NAME := SM-A800
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/a8eltezh/device_a8eltezh.mk)
+$(call inherit-product, device/samsung/j1vzw/device_j1vzw.mk)
 
 ## Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := a8eltezh
-PRODUCT_NAME := omni_a8eltezh
+PRODUCT_DEVICE := j1vzw
+PRODUCT_NAME := omni_j1vzw
 PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_MODEL := SM-A800
+PRODUCT_MODEL := SM-J10VPP
 PRODUCT_CHARACTERISTICS := phone
