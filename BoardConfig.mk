@@ -16,7 +16,7 @@ ARCH_ARM_HAVE_TLS_REGISTER := true
 TARGET_BOOTLOADER_BOARD_NAME := j1vzw
 art_dont_bother=true
 # Assert
-TARGET_OTA_ASSERT_DEVICE := j1vzw,SM-J10VPP,J10VPP,MSM8916
+TARGET_OTA_ASSERT_DEVICE := j1vzw,SM-J100VPP,J100VPP,MSM8916
 # Kernel
 BOARD_CUSTOM_BOOTIMG_MK      := device/samsung/j1vzw/mkbootimg.mk
 BOARD_KERNEL_CMDLINE         := console=null androidboot.hardware=qcom user_debug=31 msm_rtb.filter=0x3F ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci androidboot.selinux=permissive
